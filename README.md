@@ -2,23 +2,38 @@
 
 Link contoh: <strong><a href="https://hisabmu.com/hisab.php" target="_blank">https://hisabmu.com/hisab.php</a></strong>
 <br/><br/>
-<strong>TUTORIAL:</strong><br/><br/>
-Aplikasi PETA HILAL ini menggunakan pendekatan TOPOSENTRIS dengan library Astronomy Engine yang dirancang agar kecil, cepat, dan akurat hingga ±1 menit busur. Mesin ini didasarkan pada model VSOP87 dan NOVAS C 3.1 yang terpercaya dan teruji . Library ini diuji secara ketat terhadap NOVAS, JPL Horizons, dan sumber data ephemeris terpercaya lainnya. Perhitungan juga diverifikasi agar identik di antara semua bahasa pemrograman yang didukung.
-
-<strong><u>CARA 1 (Rekomendasi): menentukan KOTA PERTAMA YANG MEMENUHI KRITERIA:</u></strong><br/>
-
-Buang tanda centang Automatic, lalu isikan tanggal, bulan dan tahun New Moon atau konjungsi atau ijtimak yang diinginkan.
-Pada bagian Data Astronomi Klik tanggal pada New Moon 1, 2, atau 3 (format: YYYY-MM-DD HH:MM:SS WIB) sesuai bulan yang ingin dicek, agar jam:menit:detik sesuai New Moon yang dipilih. Kotak DateTimeBox akan terisi otomatis.
-Lihat bagian Info Kota Pertama Memenuhi Kriteria di bawah tabel Data Astronomi. Bagian ini akan menunjukkan kota paling timur (berdasarkan urutan sunset) yang memenuhi kriteria tinggi hilal ≥ 5° dan elongasi ≥ 8° pada tanggal tersebut.
-Jika tidak ada kota yang memenuhi, akan muncul pesan. Periksa juga TABEL LENGKAP di bawah untuk melihat detail semua kota.
-Lihat bagian Data Detail per Kota: Klik tombol "TABEL LENGKAP". Perhatikan kolom "Sunset UTC" (urut Timur ke Barat). Baris dengan teks merah memenuhi kriteria.
-Lihat bagian PETA HILAL TITIK KOTA: Klik tombol "SCATTERPLOT" untuk visualisasi MAP SCATTERPLLOT kota sampel. Titik biru adalah kota pertama yang memenuhi kriteria, merah juga memenuhi, hitam tidak. (Peta ini hanya sampel, bukan visibilitas riil).
-Lihat bagian Info Kota Pertama Memenuhi Kriteria, Gunakan tombol "Analisis AI" atau "Analisis Manual" pada Info Kota Pertama untuk interpretasi KHGT.
-
-<strong><u>CARA 2 (Fokus Satu Kota):</u></strong>
-
-Buang tanda centang Automatic, lalu isikan tanggal, bulan dan tahun New Moon atau konjungsi atau ijtimak yang diinginkan.
-Pada bagian Data Astronomi Klik tanggal pada New Moon 1, 2, atau 3 (format: YYYY-MM-DD HH:MM:SS WIB) sesuai bulan yang ingin dicek, agar jam:menit:detik sesuai New Moon yang dipilih. Kotak DateTimeBox akan terisi otomatis.
-Pilih kota dari dropdown Pilih Kota.
-Klik tanggal Sunset (WIB) pada tabel data Sun/Moon untuk mengisi DateTimeBox dengan waktu sunset kota tersebut.
-Lihat nilai Altitude dan Elongation Bulan pada baris Moon. Jika ≥ 5° dan ≥ 8°, kriteria terpenuhi di kota itu pada saat sunsetnya.
+        <fieldset id="cara" style="background-color: #ffffff; margin-top: 20px;" class="content-section">
+            <!--a href="logout.php" class="btn btn-danger mt-3"><button class="elegant-button">Logout</button></a-->
+            <legend>TUTORIAL</legend>
+             <p style="padding: 10px; background-color:yellow; text-align: justify; color: blue;"><strong><em>Aplikasi PETA HILAL ini </strong></em> menggunakan pendekatan TOPOSENTRIS dengan library Astronomy Engine yang dirancang agar kecil, cepat, dan akurat hingga ±1 menit busur. Mesin ini didasarkan pada model VSOP87 dan NOVAS C 3.1 yang terpercaya dan teruji . Library ini diuji secara ketat terhadap NOVAS, JPL Horizons, dan sumber data ephemeris terpercaya lainnya. Perhitungan juga diverifikasi agar identik di antara semua bahasa pemrograman yang didukung. </p>
+             <hr/>            
+            <div style="font-size: 0.95em; margin-left: 10px; color: darkblue;">
+                 <p><b>CARA 1 (Rekomendasi): menentukan KOTA PERTAMA YANG MEMENUHI KRITERIA</b></p>
+                 <ol>
+                    <li>Buang tanda centang <b>Automatic</b>, lalu isikan <b>tanggal</b>, <b>bulan</b> dan <b>tahun</b> New Moon atau konjungsi atau ijtimak yang diinginkan.</li>
+                     <li>Pada bagian <b>Data Astronomi</b> Klik tanggal pada <b>New Moon 1, 2, atau 3</b> (format: YYYY-MM-DD HH:MM:SS WIB) sesuai bulan yang ingin dicek, agar <b>jam:menit:detik</b> sesuai New Moon yang dipilih. Kotak <b>DateTimeBox</b> akan terisi otomatis.</li> 
+                     <li>Lihat bagian <b>Info Kota Pertama Memenuhi Kriteria</b> di bawah tabel <b>Data Astronomi</b>. Bagian ini akan menunjukkan kota paling timur (berdasarkan urutan sunset) yang memenuhi kriteria tinggi hilal ≥ 5° dan elongasi ≥ 8° pada tanggal tersebut.</li>
+                     <li>Jika tidak ada kota yang memenuhi, akan muncul pesan. Periksa juga <b>TABEL LENGKAP</b> di bawah untuk melihat detail semua kota.</li>
+                     <li>Lihat bagian <b>Data Detail per Kota:</b> Klik tombol "TABEL LENGKAP". Perhatikan kolom "Sunset UTC" (urut Timur ke Barat). Baris dengan teks merah memenuhi kriteria.</li>
+                     <li>Lihat bagian <b>PETA HILAL TITIK KOTA:</b> Klik tombol "SCATTERPLOT" untuk visualisasi MAP SCATTERPLLOT kota sampel. <b>Titik biru</b> adalah kota pertama yang memenuhi kriteria, merah juga memenuhi, hitam tidak. (Peta ini hanya sampel, bukan visibilitas riil).</li>
+                     <li>Lihat bagian <b>Info Kota Pertama Memenuhi Kriteria</b>, Gunakan tombol "Analisis AI" atau "Analisis Manual" pada Info Kota Pertama untuk interpretasi KHGT.</li>
+                 </ol>
+                  <p><b>CARA 2 (Fokus Satu Kota)</b></p>
+                  <ol>
+                     <li>Buang tanda centang <b>Automatic</b>, lalu isikan <b>tanggal</b>, <b>bulan</b> dan <b>tahun</b> New Moon atau konjungsi atau ijtimak yang diinginkan.</li>
+                     <li>Pada bagian <b>Data Astronomi</b> Klik tanggal pada <b>New Moon 1, 2, atau 3</b> (format: YYYY-MM-DD HH:MM:SS WIB) sesuai bulan yang ingin dicek, agar <b>jam:menit:detik</b> sesuai New Moon yang dipilih. Kotak <b>DateTimeBox</b> akan terisi otomatis.</li> 
+                      <li>Pilih kota dari dropdown <b>Pilih Kota</b>.</li>
+                      <li>Klik tanggal <b>Sunset (WIB)</b> pada tabel data Sun/Moon untuk mengisi DateTimeBox dengan waktu sunset kota tersebut.</li>
+                      <li>Lihat nilai <b>Altitude</b> dan <b>Elongation</b> Bulan pada baris Moon. Jika ≥ 5° dan ≥ 8°, kriteria terpenuhi di kota itu pada saat sunsetnya.</li>
+                  </ol>   
+                 
+                 <!--p><b>CARA 3 (Manual Input): Mengisi koordinat</b></p>
+                 <ol>
+                     <li>Buang tanda centang <b>Automatic</b>.</li>
+                     <li>Masukkan tanggal dan waktu (WIB) yang diinginkan pada kotak <b>DateTimeBox</b> (format: YYYY-MM-DDTHH:MM:SS).</li>
+                     <li>Pilih kota dari dropdown <b>Pilih Kota</b> atau masukkan Latitude/Longitude manual.</li>
+                     <li>Lihat hasil perhitungan (Altitude, Elongation, Rise/Set) pada tabel di bawah input.</li>
+                     <li>Lihat <b>Tabel Lengkap</b> dan <b>Scatterplot</b> untuk perbandingan antar kota pada waktu yang Anda input.</li>
+                 </ol-->
+                </div>
+        </fieldset>
