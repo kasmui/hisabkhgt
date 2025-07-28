@@ -3,7 +3,7 @@
 Link contoh: <strong><a href="https://hisabmu.com/hisab.php" target="_blank">https://hisabmu.com/hisab.php</a></strong>
 <br/><br/>
 <fieldset id="cara" style="background-color: #ffffff; margin-top: 20px;" class="content-section">
-        <legend>TUTORIAL</legend>
+        <legend><b>TUTORIAL</b></legend>
              <p style="padding: 10px; background-color:yellow; text-align: justify; color: blue;"><strong><em>Aplikasi PETA HILAL ini </strong></em> menggunakan pendekatan TOPOSENTRIS dengan library Astronomy Engine yang dirancang agar kecil, cepat, dan akurat hingga ±1 menit busur. Mesin ini didasarkan pada model VSOP87 dan NOVAS C 3.1 yang terpercaya dan teruji . Library ini diuji secara ketat terhadap NOVAS, JPL Horizons, dan sumber data ephemeris terpercaya lainnya. Perhitungan juga diverifikasi agar identik di antara semua bahasa pemrograman yang didukung. </p>
              <hr/>            
             <div style="font-size: 0.95em; margin-left: 10px; color: darkblue;">
