@@ -2,9 +2,8 @@
 
 Link contoh: <strong><a href="https://hisabmu.com/hisab.php" target="_blank">https://hisabmu.com/hisab.php</a></strong>
 <br/><br/>
-        <fieldset id="cara" style="background-color: #ffffff; margin-top: 20px;" class="content-section">
-            <!--a href="logout.php" class="btn btn-danger mt-3"><button class="elegant-button">Logout</button></a-->
-            <legend>TUTORIAL</legend>
+<fieldset id="cara" style="background-color: #ffffff; margin-top: 20px;" class="content-section">
+        <legend>TUTORIAL</legend>
              <p style="padding: 10px; background-color:yellow; text-align: justify; color: blue;"><strong><em>Aplikasi PETA HILAL ini </strong></em> menggunakan pendekatan TOPOSENTRIS dengan library Astronomy Engine yang dirancang agar kecil, cepat, dan akurat hingga ±1 menit busur. Mesin ini didasarkan pada model VSOP87 dan NOVAS C 3.1 yang terpercaya dan teruji . Library ini diuji secara ketat terhadap NOVAS, JPL Horizons, dan sumber data ephemeris terpercaya lainnya. Perhitungan juga diverifikasi agar identik di antara semua bahasa pemrograman yang didukung. </p>
              <hr/>            
             <div style="font-size: 0.95em; margin-left: 10px; color: darkblue;">
@@ -26,14 +25,5 @@ Link contoh: <strong><a href="https://hisabmu.com/hisab.php" target="_blank">htt
                       <li>Klik tanggal <b>Sunset (WIB)</b> pada tabel data Sun/Moon untuk mengisi DateTimeBox dengan waktu sunset kota tersebut.</li>
                       <li>Lihat nilai <b>Altitude</b> dan <b>Elongation</b> Bulan pada baris Moon. Jika ≥ 5° dan ≥ 8°, kriteria terpenuhi di kota itu pada saat sunsetnya.</li>
                   </ol>   
-                 
-                 <!--p><b>CARA 3 (Manual Input): Mengisi koordinat</b></p>
-                 <ol>
-                     <li>Buang tanda centang <b>Automatic</b>.</li>
-                     <li>Masukkan tanggal dan waktu (WIB) yang diinginkan pada kotak <b>DateTimeBox</b> (format: YYYY-MM-DDTHH:MM:SS).</li>
-                     <li>Pilih kota dari dropdown <b>Pilih Kota</b> atau masukkan Latitude/Longitude manual.</li>
-                     <li>Lihat hasil perhitungan (Altitude, Elongation, Rise/Set) pada tabel di bawah input.</li>
-                     <li>Lihat <b>Tabel Lengkap</b> dan <b>Scatterplot</b> untuk perbandingan antar kota pada waktu yang Anda input.</li>
-                 </ol-->
                 </div>
-        </fieldset>
+</fieldset>
